@@ -15,7 +15,9 @@ body{
 }
 
 
-
+.card{
+  width:calc(100% / 3 -5px );
+}
 
 .product {
   width: 440px;
@@ -28,6 +30,23 @@ body{
   width: 440px;
   height: 640px;
   background-size: contain;
+}
+
+
+#immagine-hover{
+  width: 440px;
+  height: 640px;
+  background-size: contain;
+
+}
+
+
+
+#immagine:hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
 
 .heart {
