@@ -48,7 +48,11 @@ body{
   opacity: 0;
 }
 
-.heart {
+.product:hover .heart{
+  color: red;
+}
+
+.product .heart {
   font-size: 2rem;
   position: absolute;
   top: 5px;
@@ -57,7 +61,7 @@ body{
   padding: 5px 5px;
 }
 
-.discount  {
+.product .discount  {
   position: absolute;
   bottom: 90px;
   left: 0px;
