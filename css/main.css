@@ -14,15 +14,10 @@ body{
   flex-wrap: wrap;
 }
 
-
-.card{
-  width:calc(100% / 3 -5px );
-}
-
 .product {
   width: 440px;
-  height: 700px;
-  margin: 40px 5px;
+  height: 450px;
+  margin: 150px 5px;
   position: relative;
 }
 
@@ -48,9 +43,6 @@ body{
   opacity: 0;
 }
 
-.product:hover .heart{
-  color: red;
-}
 
 .product .heart {
   font-size: 2rem;
@@ -109,3 +101,80 @@ body{
 .ex-costo{
   text-decoration: line-through;
 }
+
+
+/*BOBUS*/
+
+.product:hover .heart{
+  color: red;
+}
+
+
+/*BOBUS 2 */
+
+.topbar {
+  background-color: rgb(255, 105, 0);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.topbar .contenitore-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.topbar .menu{
+  width: 15%;
+  margin-left: 300px;
+}
+
+.topbar .menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 40px ;
+  list-style: none;
+}
+
+.topbar .menu ul a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.topbar .menu ul a:hover{
+  text-decoration: underline;
+}
+
+.logo{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+
+.topbar .social ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 40px ;
+  list-style: none;
+  margin-right: 320px;
+}
+
+.topbar .social-link ul a {
+  text-decoration: none;
+}
+
+.social-link li {
+  margin-right: 15px ;
+  font-size: 1rem;
+  color: white;
+}
+
+
