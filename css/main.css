@@ -29,24 +29,23 @@ body{
 #immagine{
   width: 440px;
   height: 640px;
-  background-size: contain;
+  
 }
 
 
 #immagine-hover{
   width: 440px;
   height: 640px;
-  background-size: contain;
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 
 
 #immagine:hover{
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
+  opacity: 0;
 }
 
 .heart {
