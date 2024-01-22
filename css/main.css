@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img{
+  width: 440px;
+  height: 700px;
+  border-color: black;
+  margin: 40px auto;
+
+}
+
+#immagine{
+  width: 440px;
+  height: 640px;
+  background-size: contain;
+}
+
+
