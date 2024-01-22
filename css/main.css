@@ -8,20 +8,31 @@
 	display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
-.product img{
+.product {
   width: 440px;
   height: 700px;
   border-color: black;
   margin: 40px auto;
-
+  position: relative;
+  
 }
 
 #immagine{
   width: 440px;
   height: 640px;
   background-size: contain;
+}
+
+.heart {
+  font-size: 2rem;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  background-color: white;
+  padding: 5px 5px;
 }
 
 
